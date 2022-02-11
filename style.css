@@ -90,7 +90,7 @@ body{
 }
 /*ДЗ 04.02.2022*/
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 320px){
 
 	.right-top, .left-bottom, .music {
 		display: none;
@@ -135,4 +135,4 @@ body{
 		color: black;
 	}
 }
-@media (max-width: 360px) { ... }
+@media (max-width: 320px) { ... }
