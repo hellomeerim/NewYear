@@ -90,7 +90,7 @@ body{
 }
 /*ДЗ 04.02.2022*/
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 340px){
 
 	.right-top, .left-bottom, .music {
 		display: none;
@@ -101,8 +101,8 @@ body{
     	top: 0;
 	}
 	.left-top{
-		width: 109px;
-		height: 197px;
+		width: 89px;
+		height: 158px;
 	}
 
 	.title{
@@ -115,11 +115,11 @@ body{
 	}
 	.sign span{
 		font-size: 16px;
-		padding-right: 20px;
 
 	}
 	.logo{
 		margin-left: 130px;
+		margin-top: 30px;
 	}
 @media print{
 	.right-top, .left-bottom, .music, .center,.logo , .left-top {
@@ -135,4 +135,4 @@ body{
 		color: black;
 	}
 }
-@media (max-width: 320px) { ... }
+@media (max-width: 340px) { ... }
