@@ -48,7 +48,6 @@ body{
 .body{
 	max-width: 660px;
 	border: none;
-
 }
 /*vh говорит, что контент будет занимать всю высоту экрана*/
 
@@ -91,28 +90,42 @@ body{
 }
 /*ДЗ 04.02.2022*/
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 412px){
 
 	.right-top, .left-bottom, .music {
 		display: none;
 	} 
 	.music{
 		position: absolute;
-		left: 60%;
-    	top: 110px;
+		left: 0;
+    	top: 0;
+	}
+	.left-top{
+		width: 109px;
+		height: 197px;
 	}
 
 	.title{
 		font-size: 52px;
 	}
-	.text, .sign span{
+	.text{
 		font-size: 16px;
+		padding-right: 18px;
+		padding-left: 18px;
 	}
-}
+	.sign span{
+		font-size: 16px;
+		padding-right: 20px;
+
+	}
+	.logo{
+		margin-left: 130px;
+	}
 @media print{
 	.right-top, .left-bottom, .music, .center,.logo , .left-top {
 		display: none;
 	}
+	
 	p{
 		font-size: 20px;
 		text-align: center;
@@ -122,4 +135,4 @@ body{
 		color: black;
 	}
 }
-@media (max-width: 767px) { ... }
+@media (max-width: 412px) { ... }
